@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/yellow-gas-pump-with-black-background_605423-146007.jpg?w=900");
+    color: rgb(247, 240, 240);
+    padding: 50px 0;
+    height: 100vh;
+    width: 100vw;
+    background: cover;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.products {
+   
+}
+
+.product {
+    background-image: url("https://img.freepik.com/free-vector/engine-synthetic-mineral-oil_33099-1065.jpg?t=st=1741273339~exp=1741276939~hmac=b529d898d1c5d8acec561929a0abdcc19529b1399e30579d7a3fe0a89bf5e38c&w=826");
+    margin-bottom: 60px;
+    height:auto;
+    width:auto;
+    background-size:100%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.order-form {
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.img{
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-flat-design-biofuel-logo_23-2149391632.jpg?t=st=1728989467~exp=1728993067~hmac=88fdcd1592cf6d8e703b94bcf50fc2f10d4218aa0c026704be658f4c896376c3&w=740");
+    height: 100vh;
+    width: 100vw;
+    background: cover;
+}
+.img1{
+    color: aquamarine;
+    background-image: url("https://img.freepik.com/free-psd/3d-illustration-cartoon-character-young-backpacker-man-wearing-sombrero-travel-with-white-bag-standing-show-passport-with-smile-rendering_1150-65985.jpg?t=st=1729006518~exp=1729010118~hmac=e7531707026ba6a63a25088b6befc2bad27229543e0c1e5600a0f97f19704d25&w=900");
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background: cover;
+}
+.img2{
+    background-image:url("https://img.freepik.com/premium-psd/oil-prices-go-up-3d-icon-model-cartoon-style-render-illustration_516938-1995.jpg?w=740") ;
+    height: 100vh;
+    width: 100vw;
+    background: cover;
+
+}
+.ll{
+    background-image:url("https://img.freepik.com/free-vector/illustration-donation-support-icons_53876-6141.jpg?t=st=1741275583~exp=1741279183~hmac=a032dba87176927b98997eae794ea694d95f4b46784f94ce9c169372e1f8ae5f&w=740") ;
+    height: 130vh;
+    width: 130vw;
+    background: cover;
+
+}
+.ex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    flex-wrap:wrap-reverse;
+    text-align: center;
+}
+.pro{
+    background-image: url("https://www.gannett-cdn.com/presto/2021/07/28/USAT/903608f2-94ba-42c7-ad1d-72ef85a49124-GettyImages-1199749863.jpg?crop=4241,2386,x0,y214&width=1200");    padding: 40px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
